@@ -1,0 +1,17 @@
+{
+  "short_name": "Aktürk Kırtasiye",
+  "name": "Aktürk Kırtasiye - Mahalle Siparişi",
+  "icons": [
+    {
+      "src": "app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#6c5ce7",
+  "theme_color": "#6c5ce7",
+  "display": "standalone",
+  "orientation": "portrait"
+}
