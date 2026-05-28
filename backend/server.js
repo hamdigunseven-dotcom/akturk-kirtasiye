@@ -19,6 +19,10 @@ app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static(uploadsDir));
 
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'Aktürk Kırtasiye API başarıyla çalışıyor!' });
+});
+
 // Multer dosya yükleme ayarları (Geçici olarak bellekte tut, Sharp ile işleyip diske yazacağız)
 const storage = multer.memoryStorage();
 const upload = multer({
